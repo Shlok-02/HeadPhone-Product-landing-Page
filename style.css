@@ -1,0 +1,154 @@
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #333;
+}
+
+nav {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+}
+
+.name {
+  width: 80%;
+  font-size: 28px;
+}
+
+.list ul {
+  display: flex;
+  align-items: center;
+  font-family: "Catamaran", sans-serif;
+}
+
+.list li {
+  list-style: none;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.cover {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 94vh;
+}
+
+.section1 {
+  width: 55%;
+}
+
+.section1 h1 {
+  font-size: 70px;
+  padding-bottom: 20px;
+}
+
+.section1 p {
+  font-weight: lighter;
+  width: 80%;
+  padding: 0px;
+  font-size: 18px;
+  line-height: 1.8;
+  padding-bottom: 20px;
+}
+
+.section1 a {
+  display: block;
+  border: 1px solid #333;
+  text-decoration: none;
+  padding: 15px 25px;
+  width: 15%;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.section2 {
+  width: 45%;
+}
+
+.section2 img {
+  width: 100%;
+}
+
+.loud {
+  position: relative;
+  background: url(https://i.ibb.co/1RS1dqC/section-b.jpg) no-repeat bottom
+    center/cover;
+  height: 700px;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.clear {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+}
+
+.clear h3 {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+.clear h1 {
+  font-size: 5rem;
+  color: #fff;
+  width: 55%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.clear p {
+  color: #fff;
+  font-size: 1.5rem;
+  width: 55%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.section-c .gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.section-c .gallery a:first-child {
+  grid-row: 1/3;
+  grid-column: 1/3;
+}
+.section-c .gallery a:nth-child(2) {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.section-c .gallery img,
+.section-c .gallery a {
+  width: 100%;
+  height: 100%;
+}
+
+footer{
+  background-color: #333;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p{
+  color: #fff;
+
+}
